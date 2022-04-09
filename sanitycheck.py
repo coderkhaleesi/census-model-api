@@ -1,14 +1,14 @@
-from os import path
-
 import argparse
 import importlib
 import inspect
-import os
 import sys
+from os import path
 
 FAIL_COLOR = '\033[91m'
 OK_COLOR = '\033[92m'
 WARN_COLOR = '\033[93m'
+
+i=1
 
 def run_sanity_check(test_dir):
 

@@ -1,0 +1,15 @@
+name: udacity_mod3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytest
+  - requests
+  - uvicorn
+  - gunicorn
+  - dvc
+  - pip:
+      - fastapi==0.63.0

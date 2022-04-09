@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.pylintEnables": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.linting.enabled": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "python.formatting.provider": "black",
+    "vim.smartRelativeLine": true,
+}
